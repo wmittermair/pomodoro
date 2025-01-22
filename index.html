@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start"><i class="material-icons">play_circle</i><span>Start</span></button>
+            <button id="reset"><i class="material-icons">restart_alt</i><span>Reset</span></button>
+        </div>
+        <div class="mode">
+            <button id="pomodoro" class="active"><i class="material-icons">psychology</i><span>Pomodoro</span></button>
+            <button id="shortBreak"><i class="material-icons">coffee</i><span>Kurze Pause</span></button>
+            <button id="longBreak"><i class="material-icons">weekend</i><span>Lange Pause</span></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
